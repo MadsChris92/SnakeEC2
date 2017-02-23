@@ -1,10 +1,7 @@
-package SnakeGUI;
+package SnakeLogic;
 
 import javafx.scene.paint.Color;
 
-/**
- * Created by Ebbe Vang on 19-01-2017.
- */
 public class Item {
     private Color Color;
     private int x;

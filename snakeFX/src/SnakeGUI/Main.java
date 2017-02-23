@@ -15,7 +15,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
         //loader.load(getClass().getResource("SnakeGUI.fxml".ope));
         Parent root = loader.load();
-        primaryStage.setTitle("JakeGame");
+        primaryStage.setTitle("SnakeGame");
 
         Controller controller = (Controller) loader.getController();
 
